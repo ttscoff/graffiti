@@ -17,6 +17,7 @@ Or copy `graffiti` onto your `PATH` and `chmod +x` it (requires `curl`).
 graffiti                              # random message (color when stdout is a TTY)
 graffiti --color=never
 graffiti --color=always
+graffiti spraypaint                   # open /add in your default browser
 graffiti spraypaint --color cyan --bold 'hello wall'
 echo $'ascii\nart' | graffiti spraypaint --color magenta
 ```
