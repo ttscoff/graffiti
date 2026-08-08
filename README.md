@@ -1,6 +1,6 @@
 # graffiti
 
-Fortune-style CLI for [graffiti.moe](https://graffiti.moe) — fetch a random spray, or spraypaint a new one from your terminal.
+Fortune-style CLI for [graffiti.moe](https://graffiti.moe) — fetch a random spray, fetch one by id, or spraypaint a new one from your terminal.
 
 ## Install
 
@@ -17,6 +17,7 @@ Or copy `graffiti` onto your `PATH` and `chmod +x` it (requires `curl`).
 graffiti                              # random message (color when stdout is a TTY)
 graffiti --color=never
 graffiti --color=always
+graffiti get 42                       # one spray by numeric id
 graffiti spraypaint                   # open /add in your default browser
 graffiti spraypaint --color cyan --bold 'hello wall'
 echo $'ascii\nart' | graffiti spraypaint --color magenta
